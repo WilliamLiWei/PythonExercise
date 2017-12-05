@@ -17,6 +17,7 @@ headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36
 
 r = s.post(url_login, data = formdata, headers = headers)
 content = r.text
+#使用BS将得到的HTML内容解析为一个实际的页面
 soup = BeautifulSoup(content, 'html5lib')
 captcha = soup.find('img', id = 'captcha_image')
 if captcha:

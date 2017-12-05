@@ -174,8 +174,8 @@
   ;window._GLOBAL_NAV = {
     USER_ID: "169627121",
     UPLOAD_AUTH_TOKEN: "169627121:5a3e2748c8c9aa85a81992aa48afef2ab4cb8be7",
-    SSE_TOKEN: "673e64cf27c57861427f609046614e6b57d94027",
-    SSE_TIMESTAMP: "1512438975",
+    SSE_TOKEN: "094de08c302cd5becae6628a5aec5ab66e74a739",
+    SSE_TIMESTAMP: "1512440498",
     DOUBAN_URL: "https://www.douban.com",
     N_NEW_NOTIS: 0,
     N_NEW_DOUMAIL: 0
@@ -353,6 +353,112 @@ EXPAND_SETTING_FORM = false;
 <div class="stream-items">
   
 
+  
+      
+      
+
+
+
+
+
+
+    
+  
+    <div class="new-status status-wrapper    " data-sid="2074790101" data-uid="900117594" >
+
+
+    
+    
+
+
+
+
+
+
+<div class="status-item"
+    data-sid="2074790101"
+    data-uid="120941130"
+    data-action="0"
+    data-target-type="editor"
+    data-object-kind="1015"
+    data-object-id="647183070">
+<div class="mod" data-status-id="2074790101">
+  
+  <div
+    class="hd "
+    data-status-url="https://www.douban.com/people/120941130/status/2074790101/">
+    
+
+  <div class="usr-pic">
+    <a href="https://www.douban.com/people/120941130/" 
+  
+  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmbp-2074790101&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
+ title="好奇心日报"><img src="https://img3.doubanio.com/icon/u120941130-4.jpg" alt="好奇心日报"/></a>
+  </div>
+  <div class="text">
+    <a href="https://www.douban.com/people/120941130/" 
+  
+  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmbp-2074790101&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
+ class="lnk-people">好奇心日报</a>
+    的日记:
+    
+
+</blockquote>
+
+  </div>
+
+  </div>
+
+  <div class="bd editor">
+    
+
+<div class="block note-block">
+  <div class="pic">
+    <div class="pic-wrap">
+        <a href="https://www.douban.com/note/647183070/" 
+  
+  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmb-2074790101&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
+ target="_blank"><img src="https://img3.doubanio.com/view/note/large/public/p46956874.jpg"></a>
+        <span class="valign"></span>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="title">
+      <a href="https://www.douban.com/note/647183070/" 
+  
+  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmb-2074790101&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
+>纽约 SoHo 的“非法居住者”和半个多世纪居住权的抗争</a>
+    </div>
+    <p>本文作者： 李麑 如今，Loft 意味着一种工作与居住混合的装修风格，是年轻人时兴的生活方式。但在半个世纪之前，Loft 的“发明者们”却是非法居住在纽约曼哈顿 SoHo 区的工厂和仓库中。 对这...</p>
+  </div>
+</div>
+<div class="attachment">
+</div>
+
+
+    <div class="actions">
+        
+        <span class="created_at" title="2017-12-05 10:08:04">
+            13分钟前<span class="ghost">，来自 <a href="https://www.douban.com/interest/1/1/">热门精选</a></span>
+        </span>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+<!-- 2074790101, note.html, -->
+
+
+
+
+      
   
       
       
@@ -933,7 +1039,7 @@ EXPAND_SETTING_FORM = false;
 <blockquote>
   
 
-  <p>2013年至今， @<a href="https://www.douban.com/people/xiyuewuhen/">午歌</a> 在豆瓣度过了5年的写作时光。在这里，他与豆友交流思想，相近相知，彻底改变了曾经作为理工宅男的生活方式。“感谢豆瓣，让我们在寻找自己的道路上并不孤独。在这里，你永远不是一个人在战斗！” <a title="https://www.douban.com/note/647323218/" href="https://erebor.douban.com/redirect/?ad=190294&uid=169627121&bid=j6VpZ-i2zLI&unit=dale_broadcast_sixth&crtr=&mark=&hn=sindar26b&sig=315055b48f0ec0d7806ae2a26675221ce268a6be35e30b651e0d2f9b6a12d751e46315b0269aac211c51a08dd267003278e59dda8a883fac97312f079484414f&pid=debug_33ccaa4355de620d4a3057e29f5c531daca31e70&target=aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9ub3RlLzY0NzMyMzIxOC8=" target="_blank">https://douc.cc/0XLTvt</a></p>
+  <p>2013年至今， @<a href="https://www.douban.com/people/xiyuewuhen/">午歌</a> 在豆瓣度过了5年的写作时光。在这里，他与豆友交流思想，相近相知，彻底改变了曾经作为理工宅男的生活方式。“感谢豆瓣，让我们在寻找自己的道路上并不孤独。在这里，你永远不是一个人在战斗！” <a title="https://www.douban.com/note/647323218/" href="https://erebor.douban.com/redirect/?ad=190294&uid=169627121&bid=drH9aMo646U&unit=dale_broadcast_sixth&crtr=&mark=&hn=daisy9a&sig=1e2793afbe2769233f4ec943bd38e3671ea42e8eb96ae5baf246f1fa8ab922620daccc4ad8adb271d8df15fdda17f7c4a3282d9d1e0fb034dfa1787258e61cb8&pid=debug_8ca0850206caf5a30589d0b634ca51bb6315a2f0&target=aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9ub3RlLzY0NzMyMzIxOC8=" target="_blank">https://douc.cc/0XLTvt</a></p>
 </blockquote>
 
 
@@ -958,7 +1064,7 @@ EXPAND_SETTING_FORM = false;
 <script type="text/javascript">
 Do(function () {
    var mon_url = '';
-   var imp_url = 'https://erebor.douban.com/count/?ad=190294&amp;uid=169627121&amp;bid=j6VpZ-i2zLI&amp;unit=dale_broadcast_sixth&amp;crtr=&amp;mark=&amp;hn=sindar26b&amp;ns=1512438975803588687&amp;type=impression&amp;pid=debug_33ccaa4355de620d4a3057e29f5c531daca31e70';
+   var imp_url = 'https://erebor.douban.com/count/?ad=190294&amp;uid=169627121&amp;bid=drH9aMo646U&amp;unit=dale_broadcast_sixth&amp;crtr=&amp;mark=&amp;hn=daisy9a&amp;ns=1512440498158640241&amp;type=impression&amp;pid=debug_8ca0850206caf5a30589d0b634ca51bb6315a2f0';
 
    setTimeout(function() {
        $(".mon-img").attr("src", mon_url);
@@ -1890,9 +1996,9 @@ Do(function () {
 
 <div class="tags-editor">
     <fieldset class="tags-writer">
-        <label for="author_tags_clone1357">添加标签，多个标签用空格分隔，帮助你更好地整理内容</label>
+        <label for="author_tags_clone6256">添加标签，多个标签用空格分隔，帮助你更好地整理内容</label>
         <input id="author_tags" name="author_tags" type="hidden" value="" />
-        <input tabindex="3" id="author_tags_clone1357" class="author_tags_clone" name="author_tags_clone" type="text" value="" />
+        <input tabindex="3" id="author_tags_clone6256" class="author_tags_clone" name="author_tags_clone" type="text" value="" />
     </fieldset>
 </div>
 <div class="tags-control">
@@ -2615,112 +2721,6 @@ Do(function () {
 
 
       
-  
-      
-      
-
-
-
-
-
-
-    
-  
-    <div class="new-status status-wrapper    " data-sid="2074283195" data-uid="900117594" >
-
-
-    
-    
-
-
-
-
-
-
-<div class="status-item"
-    data-sid="2074283195"
-    data-uid="4890144"
-    data-action="0"
-    data-target-type="editor"
-    data-object-kind="1015"
-    data-object-id="647313849">
-<div class="mod" data-status-id="2074283195">
-  
-  <div
-    class="hd "
-    data-status-url="https://www.douban.com/people/LordBean/status/2074283195/">
-    
-
-  <div class="usr-pic">
-    <a href="https://www.douban.com/people/LordBean/" 
-  
-  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmbp-2074283195&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
- title="刮刮油"><img src="https://img3.doubanio.com/icon/u4890144-11.jpg" alt="刮刮油"/></a>
-  </div>
-  <div class="text">
-    <a href="https://www.douban.com/people/LordBean/" 
-  
-  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmbp-2074283195&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
- class="lnk-people">刮刮油</a>
-    的日记:
-    
-
-</blockquote>
-
-  </div>
-
-  </div>
-
-  <div class="bd editor">
-    
-
-<div class="block note-block">
-  <div class="pic">
-    <div class="pic-wrap">
-        <a href="https://www.douban.com/note/647313849/" 
-  
-  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmb-2074283195&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
- target="_blank"><img src="https://img3.doubanio.com/view/note/large/public/p46980114.jpg"></a>
-        <span class="valign"></span>
-    </div>
-  </div>
-
-  <div class="content">
-    <div class="title">
-      <a href="https://www.douban.com/note/647313849/" 
-  
-  onclick="moreurl(this, {&#34;action&#34;: &#34;0&#34;, &#34;from&#34;: &#34;nmb-2074283195&#34;, &#34;target_type&#34;: &#34;editor&#34;, &#34;object_kind&#34;: &#34;1015&#34;})"
->好多人生中最重要的道理都是在托儿所里领悟的</a>
-    </div>
-    <p>我在托儿所里迅速的成长起来。 我很小的时候就知道人和人是不一样的。 我一岁零三个月的时候就被送到了托儿所。据我母亲说，打从第一天起就没有任何分离焦虑，该吃吃，该拉拉，该睡睡，该玩...</p>
-  </div>
-</div>
-<div class="attachment">
-</div>
-
-
-    <div class="actions">
-        
-        <span class="created_at" title="2017-12-04 06:18:01">
-            昨天<span class="ghost">，来自 <a href="https://www.douban.com/interest/1/1/">热门精选</a></span>
-        </span>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-
-
-
-</div>
-<!-- 2074283195, note.html, -->
-
-
-
-
-      
 </div>
 
 <script>
@@ -2797,14 +2797,14 @@ window.crt_uid = "longyinmaster";
 
     <ul>
             <li>
+              <a target="_blank" href="https://www.douban.com/note/647084849/?source=jixue" 
+    onclick="moreurl(this, {category:'movie', type:'side_entry'})"
+>瓣嘴3丨凄惨姐妹花：薛凯琪x黄真真</a>
+            </li>
+            <li>
               <a target="_blank" href="https://market.douban.com/book/fengzikai/" 
     onclick="moreurl(this, {category:'read', type:'side_entry'})"
 >哪幅画让你爱上丰子恺？</a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.douban.com/doubanapp/dispatch?uri=/niffler/column/85&amp;dt_time_source=douban-ckblood" 
-    onclick="moreurl(this, {category:'sns', type:'side_entry'})"
->黑镜人生——网络生活的传播学肖像</a>
             </li>
     </ul>
 </div>
@@ -2882,12 +2882,12 @@ window.crt_uid = "longyinmaster";
             <li class="rec_topics">
                     <a href="https://www.douban.com/gallery/topic/%E5%86%AC%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88/?from=hot_topic_homepage" class="rec_topics_name">冬天吃什么</a>
                     
-                    <span class="rec_topics_subtitle">4935人参与</span>
+                    <span class="rec_topics_subtitle">4940人参与</span>
             </li>
             <li class="rec_topics">
                     <a href="https://www.douban.com/gallery/topic/%E4%B8%80%E7%BA%BF%E5%9F%8E%E5%B8%82%E7%94%9F%E5%AD%98%E6%8A%A5%E5%91%8A/?from=hot_topic_homepage" class="rec_topics_name">一线城市生存报告</a>
                     
-                    <span class="rec_topics_subtitle">56753人参与</span>
+                    <span class="rec_topics_subtitle">56754人参与</span>
             </li>
             <li class="rec_topics">
                     <a href="https://www.douban.com/update/topic/%E3%80%8A%E8%87%B3%E6%9A%97%E6%97%B6%E5%88%BB%E3%80%8B%E7%9A%84%E5%8E%86%E5%8F%B2%E8%83%8C%E6%99%AF%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/?from=hot_topic_homepage" class="rec_topics_name">《至暗时刻》的历史背景是什么？</a>
@@ -2910,14 +2910,14 @@ window.crt_uid = "longyinmaster";
                     <span class="rec_topics_subtitle">13194人参与</span>
             </li>
             <li class="rec_topics">
-                    <a href="https://www.douban.com/update/topic/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E3%80%8A%E8%87%B3%E7%88%B1%E6%A2%B5%E9%AB%98%E3%80%8B%E5%AF%B9%E6%A2%B5%E9%AB%98%E5%85%B6%E4%BA%BA%E7%9A%84%E6%8F%8F%E7%BB%98%EF%BC%9F/?from=hot_topic_homepage" class="rec_topics_name">如何评价《至爱梵高》对梵高其人的描绘？</a>
+                    <a href="https://www.douban.com/update/topic/%E3%80%8A%E4%BB%8A%E7%94%9F%E6%98%AF%E7%AC%AC%E4%B8%80%E6%AC%A1%E3%80%8B%E4%B8%8E%E3%80%8A%E9%80%83%E9%81%BF%E8%99%BD%E5%8F%AF%E8%80%BB%E4%BD%86%E6%9C%89%E7%94%A8%E3%80%8B%E6%9C%89%E4%BD%95%E5%BC%82%E5%90%8C%EF%BC%9F/?from=hot_topic_homepage" class="rec_topics_name">《今生是第一次》与《逃避虽可耻但有用》有何异同？</a>
                     
-                    <span class="rec_topics_subtitle">新话题 · 0人参与</span>
+                    <span class="rec_topics_subtitle">新话题 · 325人参与</span>
             </li>
             <li class="rec_topics">
-                    <a href="https://www.douban.com/gallery/topic/%E7%9B%91%E8%80%83%E8%A7%81%E9%97%BB/?from=hot_topic_homepage" class="rec_topics_name">监考见闻</a>
+                    <a href="https://www.douban.com/update/topic/%E7%9C%8B%E3%80%8A%E8%87%B3%E7%88%B1%E6%A2%B5%E9%AB%98%E3%80%8B%E5%89%8D%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E5%93%AA%E4%BA%9B%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86%EF%BC%9F/?from=hot_topic_homepage" class="rec_topics_name">看《至爱梵高》前需要了解哪些背景知识？</a>
                     
-                    <span class="rec_topics_subtitle">新话题 · 197人参与</span>
+                    <span class="rec_topics_subtitle">新话题 · 245人参与</span>
             </li>
             <li class="rec_topics">
                 <a href="/gallery/mine?type=invited">> 我被邀请参与的话题(0)</a>
@@ -3006,7 +3006,7 @@ window.crt_uid = "longyinmaster";
             existingNode = global.document.getElementsByTagName('script')[0],
             adSource = '//erebor.douban.com/',
             userId = '169627121',
-            browserId = 'j6VpZ-i2zLI',
+            browserId = 'drH9aMo646U',
             criteria = '3:/',
             preview = '',
             debug = false,
