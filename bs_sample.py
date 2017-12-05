@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(open('test.html'))
-# print(soup.prettify())
+print(soup.prettify())
 
 # Tag
 '''
@@ -22,10 +22,10 @@ print(type(soup.a.string))
 print(soup.a.string)
 '''
 
-'''
+
 for item in soup.body.contents:
-    print(item.name)
-'''
+    print(item)
+
 
 # CSS查询
 '''

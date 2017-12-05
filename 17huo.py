@@ -3,14 +3,12 @@ import time
 
 
 browser = webdriver.Chrome()
-browser.set_page_load_timeout(10)
-browser.get('http://www.yb21.cn/post/city/1101.html')
-page_info = browser.find_element_by_css_selector('body > table:nth-child(5) > tbody > tr:nth-child(1) > td')
-browser.close()
-print(page_info.text)
+browser.set_page_load_timeout(30)
+browser.get('http://www.17huo.com/search.html?sq=2&keyword=%E7%BE%8A%E6%AF%9B')
+page_info = browser.find_element_by_css_selector('body > div.wrap > div.pagem.product_list_pager > div')
 
 
-'''
+
 pages = int((page_info.text.split('，')[0]).split(' ')[1])
 for page in range(pages):
     if page > 2:
@@ -28,4 +26,3 @@ for page in range(pages):
             print(title, price)
         except:
             print(good.text)
-'''
