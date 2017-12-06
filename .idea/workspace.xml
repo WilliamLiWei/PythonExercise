@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a97b9579-8e3d-475d-8946-43ab8fb96fa7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/douban_login_cookie.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/douban_top250_movies.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/sourceCode.iml" afterPath="$PROJECT_DIR$/.idea/sourceCode.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contacts.txt" afterPath="$PROJECT_DIR$/contacts.txt" />
-      <change beforePath="$PROJECT_DIR$/douban_login_up.py" afterPath="$PROJECT_DIR$/douban_login_up.py" />
-    </list>
+    <list default="true" id="a97b9579-8e3d-475d-8946-43ab8fb96fa7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
