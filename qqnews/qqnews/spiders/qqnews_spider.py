@@ -13,11 +13,11 @@ class QQNewsSpider(scrapy.Spider):
             yield scrapy.Request(full_url, callback=self.parse_question)
 
     def parse_question(self, response):
-        print response.xpath('//div[@class="qq_article"]/div/h1/text()').extract_first()
-        print response.xpath('//span[@class="a_time"]/text()').extract_first()
-        print response.xpath('//span[@class="a_catalog"]/a/text()').extract_first()
-        print "\n".join(response.xpath('//div[@id="Cnt-Main-Article-QQ"]/p[@class="text"]/text()').extract())
-        print ""
+        print(response.xpath('/html/body/div[2]/div[1]/h1/text()').extract_first())
+        print(response.xpath('//*[@id="LeftTool"]/div/div[2]/text()').extract())
+        print(response.xpath('//span[@class="a_catalog"]/a/text()').extract_first())
+        print("\n".join(response.xpath('//div[@id="Cnt-Main-Article-QQ"]/p[@class="text"]/text()').extract()))
+        print("")
         yield {
             'title': response.xpath('//div[@class="qq_article"]/div/h1/text()').extract_first(),
             'content': "\n".join(response.xpath('//div[@id="Cnt-Main-Article-QQ"]/p[@class="text"]/text()').extract()),
