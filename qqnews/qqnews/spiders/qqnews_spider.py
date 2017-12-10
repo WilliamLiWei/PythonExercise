@@ -1,26 +1,42 @@
 #by 寒小阳(hanxiaoyang.ml@gmail.com)
-
+import sys
 import scrapy
+from scrapy.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.spiders import CrawlSpider, Rule
+from qqnews.items import QqnewsItem
 
 
 class QQNewsSpider(scrapy.Spider):
-    name = 'qqnews'
-    start_urls = ['http://news.qq.com/society_index.shtml']
+    # 爬虫名称
+    name = "tutorial"
+    # 设置下载延时
+    download_delay = 1
+    # 允许域名
+    allowed_domains = ["news.cnblogs.com"]
+    # 开始URL
+    start_urls = [
+        "https://news.cnblogs.com"
+    ]
+    # 爬取规则,不带callback表示向该类url递归爬取
+    rules = (
+        Rule(SgmlLinkExtractor(allow=(r'https://news.cnblogs.com/n/page/\d',))),
+        Rule(SgmlLinkExtractor(allow=(r'https://news.cnblogs.com/n/\d+',)), callback='parse_content'),
+    )
 
-    def parse(self, response):
-        for href in response.xpath('//*[@id="news"]/div/div/div/div/em/a/@href'):
-            full_url = response.urljoin(href.extract())
-            yield scrapy.Request(full_url, callback=self.parse_question)
+    # 解析内容函数
+    def parse_content(self, response):
+        item = QqnewsItem()
+        print('qq')
+        # 当前URL
+        title = response.selector.xpath('//*[@id="news_title"]/a')[0].extract().decode('utf-8')
+        item['title'] = title
+        print(title)
 
-    def parse_question(self, response):
-        print(response.xpath('/html/body/div[2]/div[1]/h1/text()').extract_first())
-        print(response.xpath('//*[@id="LeftTool"]/div/div[2]/text()').extract())
-        print(response.xpath('//span[@class="a_catalog"]/a/text()').extract_first())
-        print("\n".join(response.xpath('//div[@id="Cnt-Main-Article-QQ"]/p[@class="text"]/text()').extract()))
-        print("")
-        yield {
-            'title': response.xpath('//div[@class="qq_article"]/div/h1/text()').extract_first(),
-            'content': "\n".join(response.xpath('//div[@id="Cnt-Main-Article-QQ"]/p[@class="text"]/text()').extract()),
-            'time': response.xpath('//span[@class="a_time"]/text()').extract_first(),
-            'cate': response.xpath('//span[@class="a_catalog"]/a/text()').extract_first(),
-        }
+        author = response.selector.xpath('//div[@id="news_info"]/span/a/text()')[0].extract().decode('utf-8')
+        item['author'] = author
+
+        releasedate = response.selector.xpath('//div[@id="news_info"]/span[@class="time"]/text()')[0].extract().decode(
+            'utf-8')
+        item['release_date'] = releasedate
+
+        yield item

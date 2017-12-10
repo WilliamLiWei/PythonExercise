@@ -1,8 +1,12 @@
 #by 寒小阳(hanxiaoyang.ml@gmail.com)
 
 import scrapy
+from scrapy import cmdline
 
 
+cmdline.execute("scrapy crawl tutorial".split())
+
+'''
 class JulyeduSpider(scrapy.Spider):
     name = "julyedu"
     start_urls = [
@@ -24,3 +28,4 @@ class JulyeduSpider(scrapy.Spider):
                 'img_url': response.urljoin(julyedu_class.xpath('a/img[1]/@src').extract_first())
             }
 
+'''

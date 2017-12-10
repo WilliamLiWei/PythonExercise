@@ -12,7 +12,7 @@
 BOT_NAME = 'qqnews'
 
 SPIDER_MODULES = ['qqnews.spiders']
-NEWSPIDER_MODULE = 'qqnews.spiders'
+NEWSPIDER_MODULE = ['qqnews.spiders']
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -33,7 +33,8 @@ ROBOTSTXT_OBEY = True
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-#COOKIES_ENABLED = False
+COOKIES_ENABLED = False
+COOKIES_ENABLES = False
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
@@ -64,9 +65,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'qqnews.pipelines.QqnewsPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'qqnews.pipelines.QqnewsPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,3 +89,6 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# 设置爬虫爬取的最大深度
+DEPTH_LIMIT = 100
