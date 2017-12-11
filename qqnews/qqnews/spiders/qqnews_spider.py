@@ -1,12 +1,11 @@
 #by 寒小阳(hanxiaoyang.ml@gmail.com)
-import sys
-import scrapy
 from scrapy.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from qqnews.items import QqnewsItem
 
 
-class QQNewsSpider(scrapy.Spider):
+class QQNewsSpider(CrawlSpider):
+
     # 爬虫名称
     name = "tutorial"
     # 设置下载延时
@@ -18,15 +17,15 @@ class QQNewsSpider(scrapy.Spider):
         "https://news.cnblogs.com"
     ]
     # 爬取规则,不带callback表示向该类url递归爬取
-    rules = (
+    rules = [
         Rule(SgmlLinkExtractor(allow=(r'https://news.cnblogs.com/n/page/\d',))),
-        Rule(SgmlLinkExtractor(allow=(r'https://news.cnblogs.com/n/\d+',)), callback='parse_content'),
-    )
+        Rule(SgmlLinkExtractor(allow=(r'https://news.cnblogs.com/n/\d+',)), callback='parse_item'),
+    ]
 
     # 解析内容函数
-    def parse_content(self, response):
+    def parse_item(self, response):
+        print("***********************")
         item = QqnewsItem()
-        print('qq')
         # 当前URL
         title = response.selector.xpath('//*[@id="news_title"]/a')[0].extract().decode('utf-8')
         item['title'] = title
@@ -35,8 +34,7 @@ class QQNewsSpider(scrapy.Spider):
         author = response.selector.xpath('//div[@id="news_info"]/span/a/text()')[0].extract().decode('utf-8')
         item['author'] = author
 
-        releasedate = response.selector.xpath('//div[@id="news_info"]/span[@class="time"]/text()')[0].extract().decode(
-            'utf-8')
+        releasedate = response.selector.xpath('//div[@id="news_info"]/span[@class="time"]/text()')[0].extract().decode('utf-8')
         item['release_date'] = releasedate
 
         yield item
