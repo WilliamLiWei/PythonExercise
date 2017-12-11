@@ -4,6 +4,7 @@ from scrapy.spiders import CrawlSpider, Rule
 from qqnews.items import QqnewsItem
 
 
+
 class QQNewsSpider(CrawlSpider):
 
     # 爬虫名称
@@ -24,7 +25,7 @@ class QQNewsSpider(CrawlSpider):
 
     # 解析内容函数
     def parse_item(self, response):
-        print("***********************")
+        print('***********************')
         item = QqnewsItem()
         # 当前URL
         title = response.selector.xpath('//*[@id="news_title"]/a')[0].extract().decode('utf-8')
