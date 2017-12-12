@@ -1,12 +1,10 @@
-#by 寒小阳(hanxiaoyang.ml@gmail.com)
+# by 寒小阳(hanxiaoyang.ml@gmail.com)
 from scrapy.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-from qqnews.items import QqnewsItem
-
+from qqnews.qqnews.items import QqnewsItem
 
 
 class QQNewsSpider(CrawlSpider):
-
     # 爬虫名称
     name = "tutorial"
     # 设置下载延时
@@ -27,6 +25,7 @@ class QQNewsSpider(CrawlSpider):
     def parse_item(self, response):
         print('***********************')
         item = QqnewsItem()
+
         # 当前URL
         title = response.selector.xpath('//*[@id="news_title"]/a')[0].extract().decode('utf-8')
         item['title'] = title
@@ -35,7 +34,8 @@ class QQNewsSpider(CrawlSpider):
         author = response.selector.xpath('//div[@id="news_info"]/span/a/text()')[0].extract().decode('utf-8')
         item['author'] = author
 
-        releasedate = response.selector.xpath('//div[@id="news_info"]/span[@class="time"]/text()')[0].extract().decode('utf-8')
-        item['release_date'] = releasedate
+        release_date = response.selector.xpath('//div[@id="news_info"]/span[@class="time"]/text()')[0].extract().decode(
+            'utf-8')
+        item['release_date'] = release_date
 
         yield item

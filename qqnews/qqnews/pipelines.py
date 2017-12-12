@@ -10,7 +10,7 @@ import codecs
 class QqnewsPipeline(object):
     def __init__(self):
         print("pipeline")
-        self.file = codecs.open('data.json', mode='wb', encoding='utf-8')#数据存储到data.json
+        self.file = codecs.open('data.json', mode='wb', encoding='utf-8') #数据存储到data.json
 
     def process_item(self, item, spider):
         print('+++++++++++++++++++++++++++++++++++')
