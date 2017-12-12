@@ -11,7 +11,7 @@ class QuotesPipeline(object):
     def process_item(self, item, spider):
         print('+++++++++++++++++++++++++++++++++++')
         line = json.dumps(dict(item)) + "\n"
-        self.file.write(line.decode("unicode_escape"))
+        self.file.write(line)
         print('+++++++++++++++++++++++++++++++++++')
 
         return item

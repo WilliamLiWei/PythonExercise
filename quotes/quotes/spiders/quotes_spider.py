@@ -22,7 +22,7 @@ class QuotesSpider(scrapy.Spider):
             item['author'] = quote.xpath('span/small[@class="author"]/text()').extract_first()
             yield item
 
-        next_page = response.xpath('//li[@class="next"]/@herf').extract_first()
+        next_page = response.xpath('/html/body/div[1]/div[2]/div[1]/nav/ul/li/a/@href').extract_first()
         if next_page is not None:
             next_page = response.urljoin(next_page)
             yield scrapy.Request(next_page, callback=self.parse)
